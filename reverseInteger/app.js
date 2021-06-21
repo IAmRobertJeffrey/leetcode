@@ -4,8 +4,7 @@ function reverse(numberToReverse)
     let reversedNumber;
     let arrayOfDigits = []
     let reversedArrayOfDigits = []
-    
-    
+      
         for(let i = 0; i < numberToReverse.toString().length; i++)
         {
             arrayOfDigits.push(numberToReverse.toString()[i]);  
