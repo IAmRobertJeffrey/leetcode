@@ -5,7 +5,6 @@ function twoSum(nums, target)
             for(j = i + 1; j < nums.length; j++)
                 {
                     const currentSum = nums[i] + nums[j];  
-                    
                     if(currentSum === target)
                         {
                             const answerArray = [];
